@@ -1,0 +1,12 @@
+.itemPokeContainer {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    margin: auto;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+
+.imagesPokemon {
+    display: flex;
+}
