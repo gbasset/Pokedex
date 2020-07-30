@@ -1,7 +1,7 @@
 import React from "react";
 import { connect } from 'react-redux'
 const Screen = ({ onScreen, pokemons }) => {
-  console.log(onScreen);
+
   if (onScreen.id) {
     if (pokemons[onScreen.id - 1].isCatch) {
       return <>

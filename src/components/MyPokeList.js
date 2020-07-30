@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import PokeItem from './PokeItem';
 
 export default function MyPokeList({ pokemons }) {
-    console.log("pokemons", pokemons);
+
     const myPokemons = pokemons.filter(x => x.isCatch)
     const urls = []
     if (myPokemons) {

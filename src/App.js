@@ -13,7 +13,6 @@ const App = ({ click, fetchPokemons, pending, pokemons, showPokemon, catchPokemo
     fetchPokemons()
   }, [fetchPokemons])
   useEffect(() => {
-    console.log(pokemons);
   }, [pokemons])
   const [smallScreen, setSmallScreen] = useState(false);
   useEffect(() => {
@@ -35,7 +34,6 @@ const App = ({ click, fetchPokemons, pending, pokemons, showPokemon, catchPokemo
       setSmallScreen(false);
     }
   }
-  console.log(smallScreen);
   return (
     <div className="App">
       {pending ?
